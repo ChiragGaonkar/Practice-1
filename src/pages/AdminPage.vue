@@ -65,7 +65,7 @@
 <script>
 import {computed} from 'vue';
 import {useStore} from "vuex";
-import Register from './Register.vue';
+import Register from '../components/Register.vue';
 import { ref } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import ConfirmRegister from 'src/components/ConfirmRegister.vue';
